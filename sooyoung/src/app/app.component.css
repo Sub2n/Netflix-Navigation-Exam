@@ -1,0 +1,20 @@
+
+.container {
+  background-color: rgba(0, 0, 0, 0);
+  transition: background-color 1s ease;
+  padding: 1.5em 2em;
+  width: 100%;
+  position: fixed;
+}
+.container.active{
+  background-color: #202020;
+  transition: background-color 1s ease;
+}
+.nav-bg {
+  background: none;
+}
+
+.netflix-logo img {
+  max-width: 92.5px;
+  height: auto;
+}

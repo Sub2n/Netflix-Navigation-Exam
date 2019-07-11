@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'sooyoung';
+  activeHeader: boolean;
+
+  navBg() {
+    // console.log(window.pageYOffset);
+    if (window.pageYOffset > 0) {
+      this.activeHeader = true;
+    } else {
+      this.activeHeader = false;
+    }
+  }
+
 }
