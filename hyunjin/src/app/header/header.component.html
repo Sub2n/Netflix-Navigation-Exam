@@ -1,0 +1,41 @@
+<div class="header-container" appHeaderScroll>
+  <div class="header">
+    <a href="/" class="logo-link">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" class="logo">
+    </a>
+    <ul class="navigation">
+      <li class="navigation-menu">
+        <a class="navigation-link" routerLink="/home" [routerLinkActiveOptions]="{ exact: true }"
+          routerLinkActive="active">
+          홈
+        </a>
+      </li>
+      <li class="navigation-menu">
+        <a class="navigation-link" routerLink="/tvprogram" [routerLinkActiveOptions]="{ exact: true }"
+          routerLinkActive="active">
+          TV 프로그램
+        </a>
+      </li>
+      <li class="navigation-menu">
+        <a class="navigation-link" routerLink="/movies" [routerLinkActiveOptions]="{ exact: true }"
+          routerLinkActive="active">
+          영화
+        </a>
+      </li>
+      <li class="navigation-menu">
+        <a class="navigation-link" [routerLinkActiveOptions]="{ exact: true }" routerLinkActive="active">
+          최신 등록 콘텐츠
+        </a>
+      </li>
+      <li class="navigation-menu">
+        <a class="navigation-link" routerLink="/mycontent" [routerLinkActiveOptions]="{ exact: true }"
+          routerLinkActive="active">
+          내가 찜한 콘텐츠
+        </a>
+      </li>
+    </ul>
+    <div class="secondary-navigation">
+
+    </div>
+  </div>
+</div>
